@@ -1,9 +1,11 @@
 # Curso Dev
 
 ## Visão
+
 Registro pessoal da rotina de aprendizagem em desenvolvimento. Use este documento para planejar, executar e revisar suas atividades diárias e semanais.
 
 ## Objetivos
+
 - Curto prazo:
   - Criar um repositório no GitHub com README. ✅
   - Clonar o repositório remoto localmente. ✅
@@ -17,9 +19,9 @@ Registro pessoal da rotina de aprendizagem em desenvolvimento. Use este document
 
 Tabela com comandos úteis, dividida em sincronização remota e operações locais.
 
-| Sincronização remota | Local |
-|---                   |---    |
-| `git clone <repo>` — clonar repositório remoto<br>`git remote add origin <url>` — adicionar remoto<br>`git fetch` — buscar atualizações (não altera o working tree)<br>`git pull` — buscar e mesclar do remoto (`fetch` + `merge` ou `rebase` dependendo da configuração)<br>`git push` — enviar commits ao remoto<br>`git push -u origin <branch>` — configurar upstream | `git status` — mostrar estado do repositório<br>`git add <file>` — preparar alterações para commit<br>`git commit -m "msg"` — criar commit<br>`git branch` — listar/gerir branches<br>`git checkout <branch>` / `git switch <branch>` — mudar de branch<br>`git merge <branch>` — mesclar branch no atual<br>`git rebase <branch>` — reaplicar commits sobre outro branch<br>`git reset --soft --hard` — redefinir HEAD (cuidado)<br>`git stash` — guardar alterações temporariamente<br>`git log` — visualizar histórico de commits<br>`git diff` — ver diferenças entre estados|
+| Sincronização remota                                                                                                                                                                                                                                                                                                                                                      | Local                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git clone <repo>` — clonar repositório remoto<br>`git remote add origin <url>` — adicionar remoto<br>`git fetch` — buscar atualizações (não altera o working tree)<br>`git pull` — buscar e mesclar do remoto (`fetch` + `merge` ou `rebase` dependendo da configuração)<br>`git push` — enviar commits ao remoto<br>`git push -u origin <branch>` — configurar upstream | `git status` — mostrar estado do repositório<br>`git add <file>` — preparar alterações para commit<br>`git commit -m "msg"` — criar commit<br>`git branch` — listar/gerir branches<br>`git checkout <branch>` / `git switch <branch>` — mudar de branch<br>`git merge <branch>` — mesclar branch no atual<br>`git rebase <branch>` — reaplicar commits sobre outro branch<br>`git reset --soft --hard` — redefinir HEAD (cuidado)<br>`git stash` — guardar alterações temporariamente<br>`git log` — visualizar histórico de commits<br>`git diff` — ver diferenças entre estados |
 
 ## Arvore de arquivos
 
@@ -73,7 +75,8 @@ Tabela com comandos úteis, dividida em sincronização remota e operações loc
 
 ## File-Based Routing
 
-**File-Based Routing** é um padrão onde a estrutura de arquivos do projeto define automaticamente as rotas da aplicação: cada arquivo ou diretório dentro de uma pasta de rotas (ex.: pages/, src/routes/) mapeia para uma URL. Frameworks como Next.js, Nuxt e SvelteKit adotam esse modelo, oferecendo rotas dinâmicas (ex.: [id].js) e aninhadas por convenção. 
+**File-Based Routing** é um padrão onde a estrutura de arquivos do projeto define automaticamente as rotas da aplicação: cada arquivo ou diretório dentro de uma pasta de rotas (ex.: pages/, src/routes/) mapeia para uma URL. Frameworks como Next.js, Nuxt e SvelteKit adotam esse modelo, oferecendo rotas dinâmicas (ex.: [id].js) e aninhadas por convenção.
+
 - **Vantagens**: menos configuração, criação rápida de rotas, melhor previsibilidade e manutenção;
 - **Desvantagem**: pode ser limitante quando é necessária lógica complexa de roteamento dinâmica. Use File-Based Routing quando quiser produtividade e convenções claras, opte por roteamento programático se precisar gerar rotas dinamicamente em tempo de execução.
 
@@ -85,5 +88,4 @@ Frase: One man's trash is another man's treasure,
 Olixo de uns é o tesouso de outros.
 
 - **EditorConfig**
-O EditorConfig é um Configurador de Editor e por ele a gente vai definir regras fundamentais de como o seu Editor deve se comportar como, por exemplo, qual a largura da indentação do código, se será uma indentação mais curta ou mais comprida e se nela deve usar o caractere de espaço ou tab. Mas importante destacar que essas regras irão acontecer antes de você salvar um arquivo...
-
+  O EditorConfig é um Configurador de Editor e por ele a gente vai definir regras fundamentais de como o seu Editor deve se comportar como, por exemplo, qual a largura da indentação do código, se será uma indentação mais curta ou mais comprida e se nela deve usar o caractere de espaço ou tab. Mas importante destacar que essas regras irão acontecer antes de você salvar um arquivo...
